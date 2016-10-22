@@ -1,10 +1,13 @@
 <div class="first" ng-controller='MainCtrl'>
       {{5+5}}
       <form>
-      <input type='text' ng-model='q'>
-      <input type="submit" ng-click='qRequest(); showCat();' >
+      <!--
+      <input type="text" ng-model='startDate'>
+      <input type="text" ng-model='endDate'>
+      -->
+      <input id='search' type='text' ng-model='q'>
+      <input id='submit' type="submit" ng-click='qRequest(); showCat();' >
       </form>
-
       <div id='jsonator' ng-repeat='x in jsonator'>
       	
       	<div><span id='titlu'>Titlu: </span>{{x.titlu}}</div>

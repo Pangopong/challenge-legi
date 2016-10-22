@@ -2,6 +2,7 @@
   min-height: 600px;
   background-color: #262626;
   color: green;
+  padding: 15px;
   box-shadow: 0px 0px 13px 5px black;
 }
 .navbar{
@@ -14,6 +15,17 @@
 .navbar-brand{
   position: absolute;
   left: 0%;
+}
+#search{
+  background-color: #404040;
+  width: 85%;
+  border-color: grey;
+  color: grey;
+}
+#submit{
+  background-color: #404040;
+  border-color: grey;
+  color: grey;
 }
 
 body {

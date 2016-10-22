@@ -9,7 +9,7 @@
  */
 angular.module('lawApp')
   .controller('MainCtrl', function ($scope, $http) {
-  	$scope.q = 'Search';
+  	$scope.q = null;
     $scope.jsonator = [];
   	//$scope.jsonator = [{name: 'AAR-SP', value: 26}, {name:'Duminica', value: 26}, {name:'Euripide', value: 90}];
 
